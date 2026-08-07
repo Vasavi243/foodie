@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FoodExpress - Restaurant</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Arial,sans-serif}
+body{background:#f5f7fb;color:#222}
+nav{position:sticky;top:0;background:#0f172a;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:16px 40px}
+.logo{font-size:30px;font-weight:bold;color:#ff7a00}
+.menu a{color:#fff;text-decoration:none;margin-left:18px}
+.menu a:hover{color:#ff7a00}
+.hero{height:340px;background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('images/banner.jpg') center/cover;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff}
+.hero h1{font-size:48px}
+.hero input{margin-top:18px;padding:14px;width:60%;max-width:500px;border:none;border-radius:30px}
+section{padding:35px 5%}
+.cats{display:flex;flex-wrap:wrap;gap:12px;margin-top:15px}
+.cat{background:#fff;padding:12px 18px;border-radius:25px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px;margin-top:25px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 5px 15px rgba(0,0,0,.12);transition:.3s}
+.card:hover{transform:translateY(-6px)}
+.card img{width:100%;height:210px;object-fit:cover}
+.info{padding:16px}
+.top{display:flex;justify-content:space-between}
+.rate{background:#16a34a;color:#fff;padding:4px 8px;border-radius:8px}
+.badge{display:inline-block;margin-top:10px;margin-right:6px;padding:5px 10px;border-radius:20px;color:#fff;font-size:12px}
+.off{background:#ff6b00}.free{background:#2196f3}.veg{background:#16a34a}
+footer{background:#0f172a;color:#fff;text-align:center;padding:25px;margin-top:30px}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">🍔 FoodExpress</div>
+<div class="menu">
+<a href="#">Home</a>
+<a href="#">Offers</a>
+<a href="#">Help</a>
+<a href="#">Cart</a>
+<a href="#">Sign In</a>
+<a href="#">Profile</a>
+</div>
+</nav>
+
+<div class="hero">
+<h1>Order Your Favourite Food</h1>
+<p>Best Restaurants in Bangalore</p>
+<input type="text" placeholder="Search restaurants or dishes">
+</div>
+
+<section>
+<h2>Categories</h2>
+<div class="cats">
+<div class="cat">🍛 Biryani</div>
+<div class="cat">🥞 Dosa</div>
+<div class="cat">🍕 Pizza</div>
+<div class="cat">🍔 Burgers</div>
+<div class="cat">🥘 South Indian</div>
+<div class="cat">☕ Coffee</div>
+<div class="cat">🍰 Desserts</div>
+</div>
+
+<h2 style="margin-top:30px;">Popular Restaurants</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="images/meghana.jpg" alt="Meghana Foods">
+<div class="info">
+<div class="top"><h3>Meghana Foods</h3><span class="rate">⭐ 4.7</span></div>
+<p>🍽 Andhra & Biryani</p>
+<p>📍 Indiranagar, Bangalore</p>
+<p>🛵 25 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/rameshwaram.jpg" alt="Rameshwaram Cafe">
+<div class="info">
+<div class="top"><h3>Rameshwaram Cafe</h3><span class="rate">⭐ 4.8</span></div>
+<p>🍽 South Indian</p>
+<p>📍 Rajajinagar, Bangalore</p>
+<p>🛵 18 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/mtr.jpg" alt="MTR">
+<div class="info">
+<div class="top"><h3>MTR</h3><span class="rate">⭐ 4.6</span></div>
+<p>🍽 Meals</p>
+<p>📍 Lalbagh, Bangalore</p>
+<p>🛵 30 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/empire.jpg" alt="Empire">
+<div class="info">
+<div class="top"><h3>Empire</h3><span class="rate">⭐ 4.5</span></div>
+<p>🍽 Biryani</p>
+<p>📍 Koramangala, Bangalore</p>
+<p>🛵 28 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/ctr.jpg" alt="CTR">
+<div class="info">
+<div class="top"><h3>CTR</h3><span class="rate">⭐ 4.8</span></div>
+<p>🍽 Benne Dosa</p>
+<p>📍 Malleshwaram, Bangalore</p>
+<p>🛵 22 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/truffles.jpg" alt="Truffles">
+<div class="info">
+<div class="top"><h3>Truffles</h3><span class="rate">⭐ 4.7</span></div>
+<p>🍽 Burgers</p>
+<p>📍 Koramangala, Bangalore</p>
+<p>🛵 24 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/nagarjuna.jpg" alt="Nagarjuna">
+<div class="info">
+<div class="top"><h3>Nagarjuna</h3><span class="rate">⭐ 4.6</span></div>
+<p>🍽 Andhra Meals</p>
+<p>📍 Residency Road, Bangalore</p>
+<p>🛵 27 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/brahmins.jpg" alt="Brahmin's Coffee Bar">
+<div class="info">
+<div class="top"><h3>Brahmin's Coffee Bar</h3><span class="rate">⭐ 4.8</span></div>
+<p>🍽 Idli & Vada</p>
+<p>📍 Basavanagudi, Bangalore</p>
+<p>🛵 15 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/vidyarthi.jpg" alt="Vidyarthi Bhavan">
+<div class="info">
+<div class="top"><h3>Vidyarthi Bhavan</h3><span class="rate">⭐ 4.9</span></div>
+<p>🍽 Masala Dosa</p>
+<p>📍 Basavanagudi, Bangalore</p>
+<p>🛵 20 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/hallimane.jpg" alt="Halli Mane">
+<div class="info">
+<div class="top"><h3>Halli Mane</h3><span class="rate">⭐ 4.5</span></div>
+<p>🍽 Traditional Meals</p>
+<p>📍 Malleshwaram, Bangalore</p>
+<p>🛵 26 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/udupi.jpg" alt="Udupi Sri Krishna">
+<div class="info">
+<div class="top"><h3>Udupi Sri Krishna</h3><span class="rate">⭐ 4.4</span></div>
+<p>🍽 South Indian</p>
+<p>📍 Jayanagar, Bangalore</p>
+<p>🛵 23 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+<div class="card">
+<img src="images/pizza.jpg" alt="Pizza Hut">
+<div class="info">
+<div class="top"><h3>Pizza Hut</h3><span class="rate">⭐ 4.3</span></div>
+<p>🍽 Pizza</p>
+<p>📍 MG Road, Bangalore</p>
+<p>🛵 20 mins</p>
+<span class="badge off">50% OFF</span>
+<span class="badge free">Free Delivery</span>
+<span class="badge veg">Popular</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<h2>FoodExpress</h2>
+<p>About | Contact | Privacy Policy | Terms & Conditions</p>
+<p>© 2026 FoodExpress. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
