@@ -464,7 +464,7 @@ Start Tomcat from Eclipse.
 Then open the application in your browser:
 
 ```text
-http://localhost:8080/foodie/
+http://localhost:8080/Foodie1/
 ```
 
 The exact URL may vary depending on the project/context name configured in Eclipse.
