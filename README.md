@@ -4,64 +4,53 @@
 
 The application provides separate **Customer** and **Admin** modules. Customers can register, log in, browse restaurants and menus, add food items to a cart, checkout, place orders and track order status. Administrators can manage restaurants, menus and customer orders.
 
----
-
 ## 📸 Screenshots
 
 ### 🏠 Home Page
 
-![Foodie Home Page](src/main/webapp/https_foodexpress_demo.png)
+![Foodie Home Page](home.png)
+
+---
 
 ### 🔐 Login & Registration
 
-> Add your login screenshot here.
+![Login & Registration](login.png)
 
-```text
-screenshots/login.png
-```
+---
 
-### 🍽️ Restaurants & Menu
+### 🍽️ Restaurants
 
-> Add your restaurant/menu screenshot here.
+![Restaurants](restaurants.png)
 
-```text
-screenshots/restaurants.png
-screenshots/menu.png
-```
+---
+
+### 🍕 Menu
+
+![Food Menu](menu.png)
+
+---
 
 ### 🛒 Shopping Cart
 
-> Add your cart screenshot here.
+![Shopping Cart](cart.png)
 
-```text
-screenshots/cart.png
-```
+---
 
 ### 💳 Checkout
 
-> Add your checkout screenshot here.
+![Checkout](checkout.png)
 
-```text
-screenshots/checkout.png
-```
+---
 
 ### 📦 Order Tracking
 
-> Add your order-tracking screenshot here.
+![Order Tracking](order-tracking.png)
 
-```text
-screenshots/order-tracking.png
-```
+---
 
 ### 👨‍💼 Admin Dashboard
 
-> Add your admin dashboard screenshot here.
-
-```text
-screenshots/admin-dashboard.png
-```
-
----
+![Admin Dashboard](admin-dashboard.png)
 
 ## ✨ Features
 
